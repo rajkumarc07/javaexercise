@@ -5,6 +5,7 @@ public class EmployeeTest {
         /* Create two objects using constructor */
         Employee empOne = new Employee("James Smith");
         Employee empTwo = new Employee("Mary Anne");
+        Employee empThree=new Employee("raj")
 
         // Invoking methods for each object created
         empOne.empAge(26);
@@ -16,5 +17,10 @@ public class EmployeeTest {
         empTwo.empDesignation("Software Engineer");
         empTwo.empSalary(500);
         empTwo.printEmployee();
+
+        empThree.empAge(21);
+        empThree.empDesignation("Software Engineer");
+        empThree.empSalary(500);
+        empThree.printEmployee();
     }
 }
